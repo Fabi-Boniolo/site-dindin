@@ -1,0 +1,1132 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* ====== Cabeçalho para todas as Páginas ======*/
+.cabecalho {
+  background: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalho-imagem {
+  margin-left: 20%;
+}
+
+.cabecalho div {
+  display: flex;
+  align-items: center ;
+}
+
+.cabecalho h1 {
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  margin-right: 10%;
+  gap: 3.875rem;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.44rem;
+  text-transform: uppercase;
+}
+
+.cabecalho-menu a {
+  color: #FDFDFD;
+}
+
+/* ======= Fim Cabeçalho de todas as Páginas ====== */
+
+/* Media Queries - cabeçalho*/
+@media (max-width: 750px){
+  .cabecalho-imagem{
+    display: none;
+  }
+  .cabecalho h1{
+    display: none;
+  }
+}
+
+/*========== Página Index ==========*/
+/* ===Início Conteúdo Principal=== */
+
+.secao-principal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.secao-um {
+  display: flex;
+  flex-direction: column; 
+}
+
+.secao-um h1 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 4.3rem;
+  color: #FF4081;
+  padding: 1rem 0 0 0;
+  width: 30.5rem; 
+  margin-bottom: 1.2rem;
+}
+
+.secao-um p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 31px;
+  color: #555555;
+  width: 28.87rem;
+  height: 3.87rem;
+  margin-bottom: 2.3rem;
+}
+
+.secao-um button {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.68rem;
+  line-height: 1.93rem;
+  color: #FF4081;
+  border: 2px solid #FF4081;
+  border-radius: 3.87rem;
+  padding: 0.5rem;
+}
+
+.img-banner {
+  margin-top: 8rem;
+  margin-bottom: 4rem ;
+} 
+
+.artigo-principal {
+  padding: 6rem 0 8rem;
+  display: flex;
+  justify-content: space-around;
+  background: #F7F7F7;
+}
+
+.artigo-cards h3 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #FF4081;
+  margin-top: 2.8rem;
+  margin-bottom: 1.4rem;
+}
+
+.descricao {
+  width: 18rem;
+  margin-bottom: 2rem;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.06rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #000000;
+}
+
+.comecar-agora {
+  display: block;
+  margin: 0 auto;
+  width: 15.56rem;
+  height: 3.18rem;
+  background: #FF4081;
+  border-radius: 62px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.43rem;
+  text-align: center;
+  padding: 1rem;
+  color: #FFFFFF;
+}
+/* ======Fim Conteúdo Principal====== */
+
+/* Media Queries conteudo principal */
+@media (max-width: 750px){
+
+  .secao-principal{
+    flex-direction: column;
+  }
+  .secao-um h1 {
+    font-size: 2.5rem;
+    width: 26rem; 
+  }
+  .secao-um p {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 10rem;
+  }
+
+  .secao-um button {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 2px solid #FF4081;
+    border-radius: 3.87rem;
+  }
+
+  .img-banner {
+    width: 400px;
+    height: 400px;
+
+}
+.artigo-principal {
+  padding: 1rem 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #F7F7F7;
+}
+}
+
+/* ======Inícios dos Artigos====== */
+.secundaria {
+  height: 45.625rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.secundaria-h2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 50px;
+  color: #009688;
+  padding: 7rem  30rem 0 0;
+}
+
+.icones {
+  background: #FFFFFF;
+}
+
+.secao-icones p {
+  width: 22.68rem;
+  height: 4.39rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.12rem;
+  line-height: 1.5rem;
+  color: #000000;
+  float: right;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.secao-icones span {
+  display: inline-block;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.12rem;
+  line-height: 1.5rem;
+  color: #000000;
+}
+
+.index-secundaria2 {
+  background: #E5E5E5; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.secundaria2 {
+  display: flex;
+  justify-content: space-around;
+  }
+
+.secundaria2-h2 {
+  display: inline-block;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 50px;
+  color: #009688;
+  padding: 5.68rem  0 4.5rem 8rem ;
+}
+
+.descricao2 {
+  width: 19rem;
+  height: 7rem;
+  margin-bottom: 6.93rem;
+}
+
+.descricao2 span {
+  display: block;
+  color: #009688;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 31px;
+  margin-top: 0.5rem;
+} 
+
+.todos-posts {
+  width: 289px;
+  height: 51px;
+  border: 2px solid #FF4081;
+  border-radius: 62px;
+  display: block;
+  margin: 0 auto;
+  color: #FF4081;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 3.3125rem;
+}
+
+/* ====== Fim dos Artigos ======= */
+/*========== Fim Página Index ==========*/
+
+/* Media Queries conteudo principal e Artigos */
+@media (max-width: 750px){
+  .secundaria-h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    padding: 2rem  0 0 0;
+    margin-bottom: 2rem;
+  }
+
+  .secundaria {
+    height: 30%;
+    display: block;
+    line-height: 69px;
+}
+
+.index-secundaria2 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secundaria2 {
+  display: flex;
+  flex-direction: column;
+  }
+
+  .secundaria2-h2 {
+    display:block;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 5.68rem  0 4.5rem 8rem ;
+  }
+
+}
+
+/* ====== Início RODAPE para todas as Páginas ====== */
+.rodape {
+  background: #419488;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.rodape-div{
+  width: 19.5rem ;
+  height: 6.33rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.rodape-imagem {
+  width: 6.1rem;
+  margin-left: 8rem;
+}
+
+.rodape-div h1 {
+  font-family: 'Ubuntu';
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.125rem;
+  line-height: 4.75rem;
+}
+
+.rodape-div p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.18rem;
+  line-height: 1.37rem;
+  color: #FFFFFF;
+}
+
+.rodape-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.4rem;
+  margin: 3.3rem auto 4.4rem auto;
+}
+
+.rodape-menu a {
+  color: #FFFFFF;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.botao {
+  background: #419488;
+  width: 18rem;
+  height:3.1rem;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.4rem;
+  text-align: center;
+  border: 2px solid #FFFFFF;
+  border-radius: 3.8rem;
+  color: #FFFFFF;
+}
+/* ======Fim RODAPE para todas as Páginas ====== */
+
+/* Media Queries Rodapé todas as páginas */
+@media (max-width: 750px){
+  .rodape-imagem {
+    display: none;
+  }
+  .rodape-div h1 {
+    display: none;
+  }
+  .rodape-div p {
+    display: none;
+  }
+  .rodape-menu {
+    
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+  .botoes {
+    margin-right: 1rem;
+  }
+
+}
+
+
+/* ====== Página Cursos ======*/
+/* ======Início Conteúdo Principal======*/
+.secao-um {
+  margin: 5rem ;
+}
+
+.secao-um h2 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #FF4081;
+}
+
+.secao-um p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #555555;
+}
+
+.artigos-conteudo {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.artigo-imagem {
+  margin: 4rem 0 8rem 6rem;
+}
+
+.escrita h3 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #FF4081;
+  margin-bottom: 1rem;
+}
+
+.escrita p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  width: 45.25rem;
+  height: 5.5rem;
+  margin-bottom: 3.31rem;
+}
+
+.comecar {
+  width: 14.6rem;
+  height: 3.1rem;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  background: #2E948A;
+  border-radius: 3.987rem;
+  color: #FFFFFF;
+  border: none;
+  border-bottom: 8.8rem ;
+}
+
+.linha-horizontal {
+  width: 77%;
+  height: 0.31rem;
+  background: #C4C4C4;
+  margin: 0 auto;
+}
+/* ======Fim Conteúdo Principal======*/
+
+/* Media Queries Pagina Cursos */
+@media (max-width: 750px){
+  .artigos-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .artigo-imagem {
+    width: 15.75rem;
+    height: 15.81rem;
+  }
+  
+  .escrita h3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  
+  .escrita p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #000000;
+    width: 25.25rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 6.31rem;
+  }
+  
+  .comecar {
+    width: 8.6rem;
+    height: 2.1rem;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 10px;
+    text-align: center;
+    border-radius: 3.987rem;
+    margin: 1rem 2rem 2rem 2rem ;
+  }
+  
+}
+/* Fim Media Queries Pagina Cursos */
+
+/* ====== Fim Página Cursos ======*/
+
+/* ======Início Página Curso====== */
+/* ======Início Conteúdo Principal===== */
+.curso-artigo-principal {
+  background: #E5E5E5;
+  display: flex;
+  justify-content: space-around;
+}
+
+.curso-secao-um h1 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 63px;
+  width: 462px;
+  height: 186px;
+  margin-top: 5rem;
+  color: #FF4081;
+}
+
+.curso-secao-um p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  width: 461px;
+  height: 186px;
+  color: #000000;
+  margin-bottom: 7.1875rem;
+}
+
+.curso-img-banner {  
+  padding: 6.4rem 0 4.1rem 0;
+}
+
+.curso-global {
+  background: #F7F7F7;
+}
+
+.curso-artigo-videos {
+  background: #F7F7F7;
+  padding: 5rem 0 5rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+
+.curso-aside-escrita h2 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #FF4081;
+  padding-bottom: 1.625rem;
+}
+
+.curso-aside-escrita p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  width: 501px;
+  height: 195px;
+}
+
+.curso-linha  {
+  margin: 0 auto;
+  width: 95%;
+  height: 3px;
+  background: #C4C4C4;
+}
+
+
+/* Media Queries Pagina Cursos */
+@media (max-width: 750px){
+  .curso-artigo-principal {
+    background: #E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .curso-secao-um h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    margin-top: 3rem;
+  }
+  
+  .curso-secao-um p {
+    font-size: 20px;
+  }
+  
+  .artigo-imagem-curso {
+    width: 40%;
+    height: 20%;
+    margin:0 auto;
+  }
+
+  .curso-artigo-videos {
+    background: #F7F7F7;
+    padding: 4rem 2rem 5rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .curso-aside-escrita h2 {
+    text-align: center;
+  }
+  
+  .curso-aside-escrita p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    width: 400px;
+    height: 195px;
+  }
+}
+
+/* Fim Media Queries Pagina Cursos */
+/* ======Fim Página Curso====== */
+
+/* ======Início Página Contato====== */
+.conteudo-contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.formulario-contato legend {
+  padding: 6.5625rem 0 2.75rem 0;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #FF4081;
+}
+
+.input-nome {
+  width: 30.8125rem;
+  height: 2rem;
+  padding: 0.3125rem 1.375rem;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+}
+
+.input-email {
+  width: 30.8125rem;
+  height: 2rem;
+  padding: 0.3125rem 1.375rem;
+  background: #FFFFFF;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.input-mensagem {
+  width: 30.8125rem;
+  height: 12.0625rem;
+  padding: 0.3125rem 1.375rem;
+  box-sizing: border-box;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #58555D;
+  margin-bottom: 1rem;
+}
+
+.botao-contato {
+  width: 5.8rem;
+  background: #FF4081;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 0 1rem 0;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0.5rem ;
+  color: #FFFFFF;
+  margin-bottom: 6rem;
+}
+
+/* Início Media Queries Pagina Contato */
+@media (max-width: 750px){
+  .conteudo-contato {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .formulario-contato legend {
+    padding: 6rem 1rem 1rem 1rem;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .input-nome {
+    width: 100%;
+    height: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .input-email {
+    width: 100%;
+    height: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .input-mensagem {
+    width: 100%;
+  }
+  
+  .botao-contato {
+    width: 50%;
+  }
+}
+/* FIM Media Queries Pagina Contato */
+/* ======Fim Página Contato====== */
+
+
+/* ======Início PAGINA  BLOG ====== */
+.blog-artigo-principal {
+  background: #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.blog-secao-um h1 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 54px;
+  width: 512px;
+  height: 108px;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  color: #009688;
+}
+
+.blog-secao-um p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  width: 461px;
+  height: 110px;
+  margin-bottom: 8.5rem;
+}
+
+/* .blog-img-banner {  
+  padding: 3rem 12.8rem 4.1rem 2.43rem;
+} */
+
+.blog-secundaria2-global {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+}
+
+.blog-secundaria2 {
+  display: flex;
+}
+
+.blog-artigo-cards2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blog-descricao2 {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+  width: 31rem;
+  height: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.blog-descricao2 span {
+  color: #FF4081;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 1rem;
+}
+
+/* Início Media Queries Pagina Blog */
+@media (max-width: 750px){
+  .blog-artigo-principal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .blog-secao-um h1 {
+    width: 400px;
+  }
+  
+  .blog-img-banner {  
+    align-items: center;
+  }
+
+  .blog-secundaria2-global {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-secundaria2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blog-artigo-cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-descricao2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    width: 30rem;
+    height: 10rem;
+    align-items: center;
+  }
+}
+
+/* ======Fim PAGINA  BLOG ====== */
+
+/* ===========Início PAGINA POST =====================*/
+
+.post-secao-um {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-secao-um h1 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 57px;
+  color: #FF4081;
+  padding: 6.8rem 0 0.75rem 0;
+}
+
+.post-secao-um p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #9D9D9D;
+  margin-bottom: 4.625rem;
+}
+
+.post-img-banner {
+  width: 64.5rem;
+  height: 29.065rem;
+  margin-bottom: 4rem;
+}
+
+.post-article-texto {
+  padding: 4rem 10rem 11.875rem 10rem;
+}
+
+.post-paragrafo-texto p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 2rem;
+  color: #000000;
+}
+
+.post-paragrafo-texto h2 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 54px;
+  color: #009688;
+  margin-bottom: 1rem;
+}
+
+.article-global-post {
+  background: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-h2 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 57px;
+  margin: 0 auto;
+  color: #FF4081;
+  padding: 6rem 0;
+}
+
+.artigo-principal-post {
+  display: flex;
+  align-items: center;
+}
+
+.artigo-cards-post {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards-post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem ;
+}
+
+.artigo-cards-post h3 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #FF4081;
+  margin-bottom: 1.4rem;
+}
+
+.descricao-post {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.06rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #000000;
+}
+
+.comecar-agora-post {
+  display: block;
+  margin: 2rem auto 6rem auto;
+  width: 13rem;
+  height: 3rem;
+  background: #FF4081;
+  border-radius: 62px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.43rem;
+  text-align: center;
+  padding: 1rem;
+  color: #FFFFFF;
+}
+
+/* Início Media Queries Pagina Post */
+@media (max-width: 750px){
+  .post-secao-um {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .post-secao-um h1 {
+    font-size: 3rem;
+    padding: 6.8rem 0 0.75rem 1rem;
+  }
+  
+  .post-img-banner {
+    width: 90%;
+    height: 29.065rem;
+  }
+
+  .post-article-texto {
+    padding: 4rem 5rem 11rem 5rem;
+  }
+  
+  .article-global-post {
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 57px;
+    margin: 0 auto;
+    padding: 6rem 0;
+  }
+  
+  .artigo-principal-post {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* ===========Fim PAGINA POST =====================*/
+/* ===========Fim CSS =====================*/
+
+
+
